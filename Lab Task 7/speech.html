@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  height: 500px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.videoArea,
+.videoArea1{
+    width: 100%;
+    width: 100px;
+    background-color: black;
+}
+.column img{
+    object-fit: contain;
+}
+</style>
+</head>
+<body>
+
+<hr>
+<h2>Popular Projects
+</h2>
+<div class="row">
+  <div class="column" style="background-color:#aaa;">
+    <h2>RECOVERY Fund</h2>
+    <img src="img/pic1.jpg" alt="img1" width="400" height="200">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, odio.</p>
+    <br>
+    <span>Click Here for </span>
+    <input type="button" value="More info">
+  </div>
+  <div class="column" style="background-color:#bbb;">
+    <h2>Column 2</h2>
+    <img src="img/pic4.jpg" alt="img1" width="400" height="200">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, odio.</p>
+    <br>
+    <span>Click Here for </span>
+    <input type="button" value="More info">
+  </div>
+  <div class="column" style="background-color:#ccc;">
+    <h2>Column 3</h2>
+    <img src="img/pic2.jpg" alt="img1" width="400" height="200">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, odio.</p>
+    <br>
+    <span>Click Here for </span>
+    <input type="button" value="More info">
+  </div>
+  <div class="column" style="background-color:#ddd;">
+    <h2>Column 4</h2>
+    <img src="img/pic4.jpg" alt="img1" width="400" height="200">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, odio.</p>
+    <br>
+    <span>Click Here for </span>
+    <input type="button" value="More info">
+  </div>
+</div>
+<hr>
+</body>
+</html>
